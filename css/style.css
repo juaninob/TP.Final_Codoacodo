@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+#conatiner__main {
+    display: flex;
+    width: 1300px;
+    height: 900px;
+    grid-template-columns: 1fr 3fr;
+}
+
+#container__aside {
+    border: 1px red;
+    max-width: 30%;
+    position: fixed;
+    grid
+}
+
+#container__page {
+    max-width: 70%;
+    overflow: scroll;
+    border: 1px black;
+}
